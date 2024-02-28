@@ -3,6 +3,7 @@
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-color: var(--clr-bg) !important;
+  color: var(--clr-txt);
 }
 
 .tech-icons {
@@ -24,6 +25,8 @@
   background: transparent !important;
   border: none !important;
   box-shadow: var(--shadow);
+  color: var(--clr-txt);
+ 
 }
 .gitContainer {
   padding: 15px;

@@ -5,24 +5,25 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGit,
+  DiHtml5,
+  DiCss3,
+  
 } from "react-icons/di";
 import {
   SiFirebase,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiRedux,
-  SiMui,
+  
 } from "react-icons/si";
-
+import cppLogo from"../../Assets/cpp.png"
+import cLogo from"../../Assets/C_Logo.png"
+import sqlLogo from "../../Assets/sql.png"
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <img src={cppLogo} alt="C++ Logo" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+        <DiHtml5/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -34,19 +35,19 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiCss3/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+      <img src={sqlLogo} alt="sql Logo" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMui />
+      <img src={cLogo} alt="c Logo" />
       </Col>
     </Row>
   );

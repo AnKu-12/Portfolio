@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
 
-import PrivateChat from "../../Assets/Projects/PrivateChat.png";
-import Portfolio from "../../Assets/Projects/Portfolio.png";
-import Ecart from "../../Assets/Projects/ecart.png";
-import ExpenseTracker from "../../Assets/Projects/ExpenseTracker.png";
+import Sortvista from "../../Assets/sortvisra.png";
+import Portfolio from "../../Assets/port.png";
+import NetflixClone from "../../Assets/netflix.png";
+import DigitalClock from "../../Assets/Projects/digitalclock.png";
 
 import "./project.css";
 
@@ -21,11 +21,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Ecart}
-              title="E Cart"
-              description="This is a fully functional eCommerce website that uses React.js + MUI and CSS in the front end and NodeJs and express js in backend and MongoDb as Database."
-              ghLink="https://github.com/rahuljha4171/E-cart"
-              demoLink="https://ecart.onrender.com/"
+              imgPath={NetflixClone}
+              title="Netflix-Clone"
+              description="Its a react app crafted using MERN technology showcasing the intricacies of an OTT platform,demonstrating a deep understanding of its key features and functionalities"
+              ghLink="https://github.com/AnKu-12"
+              
             />
           </Col>
 
@@ -34,27 +34,27 @@ function Projects() {
               imgPath={Portfolio}
               title="Portfolio Website"
               description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.tech/"
+              ghLink="https://github.com/AnKu-12"
+              
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={PrivateChat}
-              title="Private Chat"
-              description="A Personal Chat Application to share resources and hangout with friends build with react.js, css, and Firebase. Have features which allows user for realtime messaging, image sharing and search user."
-              ghLink="#"
-              demoLink="https://chat-app-rahuljha4171.vercel.app/"
+              imgPath={Sortvista}
+              title="Sortvista"
+              description="It's a app illuminating the artistry of Sorting Algorithms by unlocking the magic of sorting algorithm through mesmerizing visualizations and enlightening properties."
+              ghLink="https://github.com/AnKu-12"
+             
             />
           </Col>
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={ExpenseTracker}
-              title="Expense Tracker"
-              description="An online expense tracker using React, Node, Express, and MongoDB as the database. It allows you to keep track of your expenses, investments, and savings. All past transactions are listed, and you can also delete them. "
-              ghLink="https://github.com/rahuljha4171/Expense-Tracker"
-              demoLink="https://expense-tracker.rahuljha4171.vercel.app/"
+              imgPath={DigitalClock}
+              title="DigitalClock"
+              description="An DigitalClock using HTML, CSS, JavaScript ,and React . It allows us to keep track of exact time and Day "
+              ghLink="https://github.com/AnKu-12"
+              
             />
           </Col>
         </Row>
@@ -63,5 +63,5 @@ function Projects() {
     </Container>
   );
 }
-
+ 
 export default Projects;

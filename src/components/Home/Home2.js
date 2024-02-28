@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Avatar.png";
+import myImg from "../../Assets/anku.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -22,7 +20,7 @@ function Home2() {
             <p className="home-about-body" data-aos="fade-up">
               <br />
               I'm a <i className="primary-header">
-                Self-Taught Web Developer
+                Highly motivated and enthusiastic final year student,
               </i>{" "}
               who loves solving problems and building Websites.
               <br />
@@ -30,20 +28,17 @@ function Home2() {
               <i className="primary-header">technologies</i> and love to learn
               new things.
               <br />
-              <br />I am more interested in building new
-              <i>
-                <i className="primary-header">Web Technologies and Products.</i>
-              </i>
+              <br />Eager to contribute to the success of a dynamic organization by leveraging my{" "}
+              <i className="primary-header">Technical aptitute ,problem-solving abilities</i> and 
+             
+              <i className="primary-header"> passion for technology.</i>
               <br />
               <br />I always apply my experience in developing products with{" "}
               <i className="primary-header">Node.js</i> and Modern Javascript
               Library and Framework like
               <i className="primary-header"> React.js.</i>
               <br />
-              <br />
-              Currently expanding my portfolio by building more{" "}
-              <i className="primary-header">projects </i>projects that I can add
-              here.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -66,7 +61,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://github.com/AnKu-12"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,18 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Rahuljha4171"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:rahuljha4171@outlook.com"
+                  href="mailto:ankita_12015054@nitkkr.ac.in"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/ankita-yadav-bab874241/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -108,17 +92,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/dead.programmer/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="instagram"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

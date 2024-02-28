@@ -4,8 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
-import logoLight from "../../Assets/logoLight.png";
-import logoDark from "../../Assets/logoDark.png";
+import logoLight from "../../Assets/ay.png";
+import logoDark from "../../Assets/ay.png";
 
 import { Link } from "react-router-dom";
 import "./navbar.css";
@@ -104,15 +104,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://blog.rahuljha.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Blogs
-              </Nav.Link>
-            </Nav.Item>
+            
           </Nav>
 
           <Nav.Item>
